@@ -122,16 +122,16 @@ bindsym $mod+Shift+ccedilla move container to workspace 9
 bindsym $mod+Shift+agrave move container to workspace 10
 
 # do xprop to know which name you should write on the class
-assign [class="^Transmission$"] → 4: Torrent
-assign [class="^ktorrent$"] → 4: Torrent
+assign [class="^Transmission-gtk$"] → 4: Torrent
+assign [class="^Ktorrent$"] → 4: Torrent
 assign [class="^Firefox$"] → 2: Web
 assign [class="^Google-chrome$"] → 2: Web
 assign [class="^Google-chrome -incognito$"] → 2: Web 
-assign [class="^vlc$"] → 3: Watch
+assign [class="^Vlc$"] → 3: Watch
 assign [class="^mplayer2$"] → 3: Watch
 assign [class="^nvlc$"] → 3: Watch
 assign [class="^cvlc$"] → 3: Watch
-assign [class="^sublime$"] → 5: Programming
+assign [class="^Sublime_text$"] → 5: Programming
 assign [class="^Gvim$"] → 5: Programming
 
 # reload the configuration file
