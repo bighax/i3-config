@@ -174,5 +174,5 @@ bar {
     #mode dock # or hide option
     #modifier Mod1 # Mod1 == Alt
     #position <top||bottom>
-    font xft:Droid Sans Mono 10
+    font xft:Droid Sans Mono 8
 }
